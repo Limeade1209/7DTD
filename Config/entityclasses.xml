@@ -1,0 +1,55 @@
+<Config>
+
+	<append xpath="/entity_classes">
+	
+		<entity_class name="animalVultureDragon" extends="animalZombieVulture">
+			<property name="UserSpawnType" value="Menu"/>
+			<property name="Tags" value="entity,animal,zombie,hostile,radiated,vulture"/>
+			<!-- hardcoded to use the vomit attack if isRadiated=true -->
+			<property name="Radiated" value=""/>
+			<property name="Mass" value="50"/>
+			<property name="SizeScale" value="16"/>
+			<!--<property name="ParticleOnSpawn" value="@:ParticleEffects/RadiatedParticlesOnMesh.prefab" param1="SetShapeToMesh0"/>-->
+
+			<property name="MoveSpeed" value=".5"/>
+			<property name="MoveSpeedAggro" value="1.5, 1.5"/>
+			<property name="MaxTurnSpeed" value="150"/>
+			
+			<property name="AITask" value="
+			BreakBlock|
+			ApproachDistraction|
+			RangedAttackTarget itemType=1;cooldown=4;duration=5|
+			ApproachAndAttackTarget class=EntityPlayer,0,EntityBandit,0,EntityEnemyAnimal|
+			ApproachSpot|
+			Look|
+			Wander|
+			"/>
+
+			<property name="HandItem" value="meleeHandZombieCopRadiated"/>
+
+			<property name="ExperienceGain" value="12000"/><!-- XP grunt radiated -->
+
+			<property name="DeadBodyHitPoints" value="200"/>
+			<drop event="Harvest" name="resourceRawDiamond" count="1" tool_category="Butcher"/>
+			<drop event="Harvest" name="casinoCoin" count="100" tool_category="Butcher"/>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="2500"/>
+				<passive_effect name="BuffResistance" operation="base_set" value="5" tags="buffRadiationPool"/>
+				<passive_effect name="EntityDamage" operation="perc_add" value=".6"/> <!-- Feral damage -->
+				<triggered_effect trigger="onOtherDamagedSelf" action="ModifyCVar" target="self" cvar="RadiatedRegenAmount" operation="set" value="4"/>
+				<triggered_effect trigger="onOtherDamagedSelf" action="AddBuff" target="self" buff="buffRadiatedRegen"/>
+			</effect_group>
+			
+			<property name="Explosion.ParticleIndex" value="8"/>
+			<property name="Explosion.RadiusBlocks" value="5"/>
+			<property name="Explosion.RadiusEntities" value="6"/>
+			<property name="Explosion.BlockDamage" value="500"/>
+			<property name="Explosion.EntityDamage" value="150"/>
+			<property name="Explosion.DamageBonus.earth" value="0"/>
+			
+		</entity_class>
+	
+	</append>
+
+</Config>
