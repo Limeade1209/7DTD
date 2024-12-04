@@ -5,6 +5,10 @@
 		<recipe name="thrownBunkerBuster" count="1" craft_time="15" craft_area="workbench">
 			<ingredient name="thrownDynamite" count="3"/>
 		</recipe>
+
+		<recipe name="thrownBunkerBusterCharge" count="1" craft_time="15" craft_area="workbench">
+			<ingredient name="thrownTimedCharge" count="3"/>
+		</recipe>
 	
 	</append>
 
