@@ -1,0 +1,55 @@
+<Config>
+
+  <!-- Modify Bicycle -->
+
+    <!-- UpAngleMax > Original value is 70. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='upAngleMax']" name="value">80</setattribute>
+    <!-- UpForce > Original value is 1. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='upForce']" name="value">2</setattribute>
+    <!-- Motor Torque Turbo > Original values are 500, 180, 750, 180. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='motorTorque_turbo']" name="value">1000, 360, 1500, 360</setattribute>
+    <!-- Velocity Max Turbo > Original values are 6, 4, 8.5, 4. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='velocityMax_turbo']" name="value">12, 8, 15, 8</setattribute>
+    <!-- Brake Torque > Original values is 3000. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='brakeTorque']" name="value">6000</setattribute>
+
+  <!-- Modify Minibike -->
+
+    <!-- UpAngleMax > Original value is 70. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='upAngleMax']" name="value">80</setattribute>
+    <!-- UpForce > Original value is 1. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='upForce']" name="value">2</setattribute>
+    <!-- Motor Torque Turbo > Original values are 400, 200, 560, 200. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='motorTorque_turbo']" name="value">800, 400, 1120, 400</setattribute>
+    <!-- Velocity Max Turbo > Original values are 7, 4, 9.2, 4. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='velocityMax_turbo']" name="value">14, 8, 18.4, 8</setattribute>
+    <!-- Brake Torque > Original values is 3000. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='brakeTorque']" name="value">10000</setattribute>
+
+  <!-- Modify Motorcycle -->
+
+    <!-- UpAngleMax > Original value is 70. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='upAngleMax']" name="value">80</setattribute>
+    <!-- UpForce > Original value is 1. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='upForce']" name="value">2</setattribute>
+    <!-- Motor Torque Turbo > Original values are 1400, 500, 2100, 650. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='motorTorque_turbo']" name="value">2800, 1000, 4200, 1300</setattribute>
+    <!-- Velocity Max Turbo > Original values are 9.8, 6, 14, 8. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='velocityMax_turbo']" name="value">19.6, 12, 28, 16</setattribute>
+    <!-- Brake Torque > Original values is 3000. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='brakeTorque']" name="value">10000</setattribute>
+
+  <!-- Modify 4x4 -->
+
+    <!-- UpAngleMax > Original value is 70. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='upAngleMax']" name="value">80</setattribute>
+    <!-- UpForce > Original value is 1. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='upForce']" name="value">2</setattribute>
+    <!-- Motor Torque Turbo > Original values are 3500, 1500, 4500, 2000. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='motorTorque_turbo']" name="value">7000, 3000, 9000, 4000</setattribute>
+    <!-- Velocity Max Turbo > Original values are 10, 8, 14, 10. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='velocityMax_turbo']" name="value">20, 16, 28, 20</setattribute>
+    <!-- Brake Torque > Original values is 6000. -->
+    <setattribute xpath="/vehicles/vehicle[@name='vehicleTruck4x4']/property[@name='brakeTorque']" name="value">12500</setattribute>
+
+</Config>
