@@ -3,78 +3,30 @@
 	<!-- Add custom items -->
 	<append xpath="/items">
 	
-		<!-- Add shotgun bomb. A variant of shotgun slugs that has the same effect as HE rockets. -->
-		<item name="ammoShotgunBomb">
-			<property name="Tags" value="ammo,shotgun,ammoShells"/>
-			<property name="DisplayType" value="ammoShotgunBomb"/>
-			<property name="TintColor" value="255,50,50"/>
-			<property name="HoldType" value="45"/>
-			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
-			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
-			<property name="Material" value="MresourceScrapPolymers"/>
-			<property name="Stacknumber" value="150"/> <!-- STK ammo low -->
-			<property name="EconomicValue" value="200"/>
-			<property name="TraderStageTemplate" value="ammoTier2"/><!-- ammoShotgunSlug -->
-			<property name="Group" value="Ammo/Weapons,Ammo,Ranged Weapons"/>
-			<property name="SoundPickup" value="shotgunshells_grab"/>
-			<property name="SoundPlace" value="shotgunshells_place"/>
-			
-			<property class="Action1">
-				<property name="Class" value="Projectile"/>
-				<property name="Explosion.BlockDamage" value="2500"/>
-				<property name="Explosion.EntityDamage" value="420"/>
-				<property name="Explosion.ParticleIndex" value="5"/> <!-- which Prefab/particle is used -->
-				<property name="Explosion.RadiusBlocks" value="5"/> <!-- damage radius for blocks -->
-				<property name="Explosion.RadiusEntities" value="4"/> <!-- damage radius for entities -->
-				<property name="Explosion.DamageBonus.water" value="0"/>
-				<property name="Gravity" value="-3"/>
-				<property name="FlyTime" value=".8"/>
-				<property name="LifeTime" value="7"/>
-				<property name="DeadTime" value="4"/>
-			</property>
-			
-			<effect_group name="ammoShotgunBomb" tiered="false">
-				<passive_effect name="BlockDamage" operation="base_set" value="100"/>
-				<passive_effect name="EntityDamage" operation="base_set" value="20"/>
-				<passive_effect name="ProjectileVelocity" operation="base_set" value="30" tags="perkDemolitionsExpert"/>
-				<display_value name="dExRadius" value="5"/>
-				<display_value name="dExBlockDamage" value="2500"/>
-				<display_value name="dExEntityDamage" value="420"/>
-			</effect_group>
-
-			<effect_group name="perkPenetrator" tiered="false">
-				<passive_effect name="TargetArmor" operation="perc_add" value="-.1" tags="perkBoomstick">
-					<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="1"/></passive_effect>
-				<passive_effect name="TargetArmor" operation="perc_add" value="-.15" tags="perkBoomstick">
-					<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="2"/></passive_effect>
-				<passive_effect name="TargetArmor" operation="perc_add" value="-.2" tags="perkBoomstick">
-					<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="3"/></passive_effect>
-				<passive_effect name="TargetArmor" operation="perc_add" value="-.3" tags="perkBoomstick">
-					<requirement name="ProgressionLevel" progression_name="perkPenetrator" operation="Equals" value="4"/></passive_effect>
-			</effect_group>
-		</item>	
-	
-		<!-- Add Bunker Buster. Dynamite variant that is 3x stronger. -->
+		<!-- Add Bunker Buster. Dynamite variant that is much stronger. -->
 		<item name="thrownBunkerBuster">
 			<property name="Tags" value="ammo,weapon,attPerception,perkDemolitionsExpert,explosivesSkill"/>
 			<property name="ItemTypeIcon" value="explosion"/>
+			
+			<property name="CustomIcon" value="thrownDynamite"/> 
+			<property name="CustomIconTint" value="ff9999"/>
+			
 			<property name="DisplayType" value="ammoGrenade"/>
-			<property name="TintColor" value="255,50,50"/>
 			<property name="Class" value="ItemClassTimeBomb"/>
 			<property name="HoldType" value="66"/>
 			<property name="Meshfile" value="@:Other/Items/Weapons/Ranged/Dynamite/dynamitePrefab.prefab"/>
-			<property name="DropScale" value="2.5"/>
+			<property name="DropScale" value="4"/>
 			<property name="Material" value="MDynamite"/>
 			<property name="Stacknumber" value="10"/>
-			<property name="EconomicValue" value="100"/>
+			<property name="EconomicValue" value="1000"/>
 			<property name="TraderStageTemplate" value="baseTier2"/><!-- thrownDynamite -->
 			<property name="Weight" value="0"/>
 			<property name="ActivationTransformToHide" value="Sparks"/>
-			<property name="Explosion.BlockDamage" value="9000"/> <!-- Original value: 3000. -->
-			<property name="Explosion.EntityDamage" value="1650"/> <!-- Original value: 550. -->
+			<property name="Explosion.BlockDamage" value="20000"/> <!-- Original value: 3000. -->
+			<property name="Explosion.EntityDamage" value="5000"/> <!-- Original value: 550. -->
 			<property name="Explosion.ParticleIndex" value="22"/> <!-- Original value: 22. -->
-			<property name="Explosion.RadiusBlocks" value="15"/> <!-- Original value: 5. -->
-			<property name="Explosion.RadiusEntities" value="18"/> <!-- Original value: 6. -->
+			<property name="Explosion.RadiusBlocks" value="64"/> <!-- Original value: 5. -->
+			<property name="Explosion.RadiusEntities" value="32"/> <!-- Original value: 6. -->
 			<!--<property name="Explosion.DamageBonus.stone" value="0"/><property name="Explosion.DamageBonus.metal" value="0"/><property name="Explosion.DamageBonus.earth" value="0"/><property name="Explosion.DamageBonus.cloth" value="5"/><property name="Explosion.DamageBonus.wood" value="0"/><property name="Explosion.DamageBonus.water" value="0"/>-->
 			<property name="FuseTime" value="12"/> <!-- End: Needed for time in sec, max 6 -->
 			<property name="StickPercent" value=".2"/>
@@ -101,20 +53,14 @@
 			</property>
 			<property name="ThrowableDecoy" value="true"/>
 			<effect_group tiered="false">
-				<display_value name="dExRadius" value="4.5"/>
-				<display_value name="dExBlockDamage" value="9000"/>
-				<display_value name="dExEntityDamage" value="1650"/>
+				<display_value name="dExRadius" value="8"/>
+				<display_value name="dExBlockDamage" value="20000"/>
+				<display_value name="dExEntityDamage" value="5000"/>
 				<display_value name="dFuseTime" value="12"/>
 				<triggered_effect trigger="onSelfWaterSubmerge" action="ResetHeldItem"/>
 			</effect_group>
 		</item>
 	
 	</append>
-	
-	<!-- Add shotgun bomb ammo to shotguns. -->
-	<setattribute xpath="/items/item[@name='gunShotgunT0PipeShotgun']/property[@class='Action0']/property[@name='Magazine_Items']" name="value">ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug,ammoShotgunBomb</setattribute>
-	<setattribute xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@class='Action0']/property[@name='Magazine_Items']" name="value">ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug,ammoShotgunBomb</setattribute>
-	<setattribute xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@class='Action0']/property[@name='Magazine_Items']" name="value">ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug,ammoShotgunBomb</setattribute>
-	<setattribute xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@class='Action0']/property[@name='Magazine_Items']" name="value">ammoShotgunShell,ammoShotgunSlug,ammoShotgunBreachingSlug,ammoShotgunBomb</setattribute>
 
 </Config>
