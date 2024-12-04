@@ -1,0 +1,7 @@
+<Config>
+
+  <setattribute xpath="/progression/level" name="skill_points_per_level">2</setattribute>
+
+  <setattribute xpath="/progression/level" name="clamp_exp_cost_at_level">50</setattribute>
+  
+</Config>
