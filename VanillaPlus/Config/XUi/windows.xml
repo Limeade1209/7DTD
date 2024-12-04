@@ -1,0 +1,16 @@
+<Config>
+
+  <!-- Remove the sprite that is visible when the XP bar is modified. -->
+  <remove xpath="/windows/window[@name='windowToolbelt']/rect/sprite[@name='backgroundMain']"/>
+  
+  <!-- Increase the size of the XP bar. Original values are height: 8, pos: (0, 6). -->
+  <setattribute xpath="/windows/window[@name='windowToolbelt']/rect/sprite[@depth='1']" name="height">16</setattribute>
+  <setattribute xpath="/windows/window[@name='windowToolbelt']/rect/sprite[@depth='1']" name="pos">0,8</setattribute>
+
+  <setattribute xpath="/windows/window[@name='windowToolbelt']/rect/sprite[@depth='9']" name="height">16</setattribute>
+  <setattribute xpath="/windows/window[@name='windowToolbelt']/rect/sprite[@depth='9']" name="pos">0,8</setattribute>
+
+  <setattribute xpath="/windows/window[@name='windowToolbelt']/rect/sprite[@depth='4']" name="height">16</setattribute>
+  <setattribute xpath="/windows/window[@name='windowToolbelt']/rect/sprite[@depth='4']" name="pos">0,8</setattribute>
+
+</Config>
