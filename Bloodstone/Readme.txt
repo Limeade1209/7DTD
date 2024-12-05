@@ -15,3 +15,4 @@
 - Bloodstone Tip mod
 - Can of Blood
 - Steel blocks now upgrade to Bloodstone blocks
+- Suspicious Koolaid
