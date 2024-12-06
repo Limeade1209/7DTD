@@ -7,8 +7,9 @@
 - Bloodstone Bomb
 - Bloodstone Bullet mod
 - Bloodstone Charge
-- Bloodstone ingot
+- Bloodstone Ingot
 - Bloodstone Knife
+- Bloodstone loot bags
 - Bloodstone Pick
 - Bloodstone Pickaxe
 - Bloodstone Shovel
