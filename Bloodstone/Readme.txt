@@ -1,7 +1,7 @@
 # Latest Version (v1.1) #
 
 [ Things added/changed with this mod ]
-- 5 giant zombies to harvest material from (Radiated Skateboarder, Radiated Steve, Party Girl, Fat Cop, Vulture Dragon)
+- 5 giant zombies to collect material from (Radiated Skateboarder, Radiated Steve, Party Girl, Fat Cop, Vulture Dragon)
 - Bloodstone Arrow mod
 - Bloodstone Axe
 - Bloodstone Bomb
