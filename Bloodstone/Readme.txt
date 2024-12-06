@@ -1,7 +1,7 @@
 # Latest Version (v1.1) #
 
 [ Things added/changed with this mod ]
-- 5 giant zombies that provide cans of blood upon harvest, there is also a chance to collect diamond from them
+- 5 giant zombies to harvest material from (Radiated Skateboarder, Radiated Steve, Party Girl, Fat Cop, Vulture Dragon)
 - Bloodstone Arrow mod
 - Bloodstone Axe
 - Bloodstone Bomb
