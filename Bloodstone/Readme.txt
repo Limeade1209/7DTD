@@ -8,8 +8,6 @@
 - Bloodstone Bullet mod
 - Bloodstone Charge
 - Bloodstone Contact Grenade
-- Bloodstone Drum Mag mod
-- Bloodstone Extended Mag mod
 - Bloodstone Hammer
 - Bloodstone Ingot
 - Bloodstone Knife
