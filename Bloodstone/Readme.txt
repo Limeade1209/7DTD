@@ -1,4 +1,4 @@
-# Latest Version (v1.1) #
+# Latest Version (v1.2) | Pending upload #
 
 [ Things added/changed with this mod ]
 - 5 giant zombies to collect material from (Radiated Skateboarder, Radiated Steve, Party Girl, Fat Cop, Vulture Dragon)
@@ -7,15 +7,27 @@
 - Bloodstone Bomb
 - Bloodstone Bullet mod
 - Bloodstone Charge
+- Bloodstone Contact Grenade
+- Bloodstone Drum Mag mod
+- Bloodstone Extended Mag mod
+- Bloodstone Hammer
 - Bloodstone Ingot
 - Bloodstone Knife
+- Bloodstone Knuckles
 - Bloodstone loot bags
+- Bloodstone Machine Gun
+- Bloodstone Magnum
 - Bloodstone Pick
 - Bloodstone Pickaxe
+- Bloodstone Shotgun
 - Bloodstone Shovel
+- Bloodstone SMG
+- Bloodstone Sniper
 - Bloodstone Tip mod
 - Bloodstone Vitamins
 - Bloodstone Wire mod
 - Can of Blood
+- Hell Hash
 - Steel blocks now upgrade to Bloodstone blocks
+- Steel doors now upgrade to Bloodstone doors
 - Suspicious Koolaid
