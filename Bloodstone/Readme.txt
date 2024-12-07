@@ -30,5 +30,5 @@
 - Can of Blood
 - Hell Hash
 - Steel blocks now upgrade to Bloodstone blocks
-- Steel doors now upgrade to Bloodstone doors
+- Steel doors (unpowered) now upgrade to Bloodstone doors [no texture change]
 - Suspicious Koolaid
