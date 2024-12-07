@@ -14,11 +14,13 @@
 - Bloodstone Ingot
 - Bloodstone Knife
 - Bloodstone Knuckles
+- Bloodstone Launcher
 - Bloodstone loot bags
 - Bloodstone Machine Gun
 - Bloodstone Magnum
 - Bloodstone Pick
 - Bloodstone Pickaxe
+- Bloodstone Rockets
 - Bloodstone Shotgun
 - Bloodstone Shovel
 - Bloodstone SMG
