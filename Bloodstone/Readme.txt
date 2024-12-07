@@ -27,6 +27,7 @@
 - Bloodstone Sniper
 - Bloodstone Tip mod
 - Bloodstone Vitamins
+- Bloodstone Warheads
 - Bloodstone Wire mod
 - Can of Blood
 - Hell Hash
