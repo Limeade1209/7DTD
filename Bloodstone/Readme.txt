@@ -1,4 +1,4 @@
-# Latest Version (v1.2) #
+# Latest Version (v1.3) | Pending Upload #
 
 [ Things added/changed with this mod ]
 - 5 giant zombies to collect material from (Radiated Skateboarder, Radiated Steve, Party Girl, Fat Cop, Vulture Dragon)
@@ -16,6 +16,7 @@
 - Bloodstone loot bags
 - Bloodstone Machine Gun
 - Bloodstone Magnum
+- Bloodstone Mine
 - Bloodstone Pick
 - Bloodstone Pickaxe
 - Bloodstone Rockets
