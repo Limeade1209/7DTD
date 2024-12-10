@@ -1,4 +1,4 @@
-# Latest Version ( v1.3 ) | Pending Upload #
+# Latest Version ( v1.3 ) #
 
 [ Things added/changed with this mod ]
 
