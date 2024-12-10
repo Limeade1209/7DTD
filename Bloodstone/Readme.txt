@@ -2,7 +2,7 @@
 
 [ Things added/changed with this mod ]
 
-- 5 zombies to collect material from ( Small Steve, Radiated Skateboarder, Radiated Steve, Party Girl, Fat Cop )
+- 5 zombies to collect material from ( Small Steve, Giant Radiated Skateboarder, Giant Radiated Steve, Giant Party Girl, Giant Fat Cop )
 
 - Bloodstone Explosives ( Bomb, Charge, Contact Grenade, Mine, Rocket, Warhead )
 
