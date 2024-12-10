@@ -12,7 +12,7 @@
 
 - Bloodstone Tools ( Axe, Pickaxe, Pick, Shovel )
 
-- Bloodstone Traps ( Spikes )
+- Bloodstone Traps ( Spikes [ no texture change ] )
 
 - Bloodstone Weapons ( Hammer, Knife, Knuckles )
 
