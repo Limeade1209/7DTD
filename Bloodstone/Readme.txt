@@ -2,15 +2,17 @@
 
 [ Things added/changed with this mod ]
 
-- 4 giant zombies to collect material from ( Radiated Skateboarder, Radiated Steve, Party Girl, Fat Cop )
+- 5 zombies to collect material from ( Small Steve, Radiated Skateboarder, Radiated Steve, Party Girl, Fat Cop )
 
 - Bloodstone Explosives ( Bomb, Charge, Contact Grenade, Mine, Rocket, Warhead )
 
 - Bloodstone Guns ( Magnum, Launcher, MG, Rifle, Shotgun, SMG, Sniper )
 
-- Bloodstone Mods ( Arrow, Bullet, Tip, Wire )
+- Bloodstone Mods ( Arrow, Bullet, Plating, Tip, Wire )
 
 - Bloodstone Tools ( Axe, Pickaxe, Pick, Shovel )
+
+- Bloodstone Traps ( Spikes )
 
 - Bloodstone Weapons ( Hammer, Knife, Knuckles )
 
@@ -24,8 +26,10 @@
 
 - Hell Hash
 
-- Steel blocks now upgrade to Bloodstone blocks
+- Iron spikes now upgrade to bloodstone spikes
 
-- Steel doors ( unpowered ) now upgrade to Bloodstone doors [no texture change]
+- Steel blocks now upgrade to bloodstone blocks
+
+- Steel doors ( unpowered ) now upgrade to bloodstone doors [no texture change]
 
 - Suspicious Koolaid
