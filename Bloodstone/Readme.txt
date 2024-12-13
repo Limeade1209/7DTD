@@ -1,7 +1,8 @@
 # Latest Version ( v1.4 ) | Pending upload #
 
-[ ===== Changes from last version ===== ]
+[ ===== Changes from last version (v1.3 -> v1.4) ===== ]
 
+* Added a bloodstone generator that can hold more gas, and output more power than the regular generator
 * Bloodstone bombs now produce 2 per crafting recipe
 * Bloodstone charges now produce 5 per crafting recipe
 * Bloodstone contact grenades now produce 5 per crafting recipe
@@ -11,8 +12,9 @@
 * Bloodstone knuckles now unlock and progress alongside steel knuckles
 * Bloodstone tools now unlock and progress alongside steel tools
 * Cans of blood can now be crafted from 5 hell hash
+* Tweaked bloodstone loot bags
 
-[ ===== Things added/changed with this mod ===== ]
+[ ===== Things added/changed with this mod (v1.3) ===== ]
 
 - 5 zombies to collect material from ( Small Steve, Giant Radiated Skateboarder, Giant Radiated Steve, Giant Party Girl, Giant Fat Cop )
 - Bloodstone Explosives ( Bomb, Charge, Contact Grenade, Mine, Rocket, Warhead )
