@@ -26,7 +26,7 @@
 - Bloodstone Vitamins
 - Can of Blood ( Used for crafting bloodstone )
 - Hell Hash
-- Iron spikes now upgrade to bloodstone spikes
+- Iron spikes now upgrade to bloodstone spikes [ no texture change ]
 - Steel blocks now upgrade to bloodstone blocks
 - Steel doors ( unpowered ) now upgrade to bloodstone doors [no texture change]
 - Suspicious Koolaid
