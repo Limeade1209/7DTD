@@ -13,7 +13,8 @@
 * Bloodstone schematics now have a chance of being sold at traders
 * Bloodstone tools now unlock and progress alongside steel tools
 * Cans of blood can now be crafted from 5 hell hash
-* Steel double doors ( unpowered ) now upgrade to bloodstone double doors [ no texture change ]
+* Steel doors ( powered ) now upgrade to bloodstone doors ( powered )
+* Steel double doors ( powered / unpowered ) now upgrade to bloodstone double doors [ no texture change ]
 * Tweaked bloodstone loot bags
 * Tweaked spawning of small steve, and giants
 
