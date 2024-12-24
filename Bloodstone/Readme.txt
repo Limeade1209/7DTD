@@ -15,6 +15,7 @@
 * Cans of blood can now be crafted from 5 hell hash
 * Steel doors ( powered / unpowered ) now upgrade to bloodstone doors ( powered / unpowered )
 * Steel double doors ( powered / unpowered ) now upgrade to bloodstone double doors [ no texture change ]
+* Steel hatch ( powered / unpowered ) now upgrade tp bloodstone hatch [ no texture change ]
 * Tweaked bloodstone loot bags
 * Tweaked spawning of small steve, and giants
 
