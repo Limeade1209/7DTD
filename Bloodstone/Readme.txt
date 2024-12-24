@@ -1,8 +1,10 @@
-# Latest Version ( v1.4 ) | Pending upload #
+# Latest Version ( v1.4 ) #
 
 [ ===== Changes from last version (v1.3 -> v1.4) ===== ]
 
 * Added a bloodstone generator that can hold more gas, and output more power than the regular generator
+* Added a new loot bag
+* Added a new zombie 'Hells Angel'
 * Bloodstone bombs now produce 2 per crafting recipe
 * Bloodstone charges now produce 2 per crafting recipe
 * Bloodstone contact grenades now produce 5 per crafting recipe
@@ -21,8 +23,9 @@
 
 [ ===== Things added/changed with this mod (v1.3) ===== ]
 
-- 5 zombies to collect material from ( Small Steve, Giant Radiated Skateboarder, Giant Radiated Steve, Giant Party Girl, Giant Fat Cop )
+- 6 zombies to collect material from ( Small Steve, Giant Radiated Skateboarder, Giant Radiated Steve, Giant Party Girl, Giant Fat Cop, Hells Angel )
 - Bloodstone Explosives ( Bomb, Charge, Contact Grenade, Mine, Rocket, Warhead )
+- Bloodstone Generator
 - Bloodstone Guns ( Magnum, Launcher, MG, Rifle, Shotgun, SMG, Sniper )
 - Bloodstone Mods ( Arrow, Bullet, Plating, Tip, Wire )
 - Bloodstone Tools ( Axe, Pickaxe, Pick, Shovel )
@@ -35,5 +38,7 @@
 - Hell Hash
 - Iron spikes now upgrade to bloodstone spikes [ no texture change ]
 - Steel blocks now upgrade to bloodstone blocks
-- Steel doors ( unpowered ) now upgrade to bloodstone doors [ no texture change ]
+* Steel doors ( powered / unpowered ) now upgrade to bloodstone doors [ no texture change ]
+* Steel double doors ( powered / unpowered ) now upgrade to bloodstone double doors [ no texture change ]
+* Steel hatch ( powered / unpowered ) now upgrade tp bloodstone hatch [ no texture change ]
 - Suspicious Koolaid
